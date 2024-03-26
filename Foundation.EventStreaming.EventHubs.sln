@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34309.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Foundation.EventStreaming.EventHubs", "Foundation.EventStreaming.EventHubs\Foundation.EventStreaming.EventHubs.csproj", "{2A7BF2EB-5B11-4C73-951E-B138E2D7C8D0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B9DBFEF2-0483-4D44-B10C-40391F6FBEF3}"
+	ProjectSection(SolutionItems) = preProject
+		azure-pipelines-nuget.yml = azure-pipelines-nuget.yml
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Foundation.EventStreaming.EventHubs.Tests", "Foundation.EventStreaming.EventHubs.Tests\Foundation.EventStreaming.EventHubs.Tests.csproj", "{E56EFABB-4955-4C46-93F6-73996EC276A1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A7BF2EB-5B11-4C73-951E-B138E2D7C8D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A7BF2EB-5B11-4C73-951E-B138E2D7C8D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A7BF2EB-5B11-4C73-951E-B138E2D7C8D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A7BF2EB-5B11-4C73-951E-B138E2D7C8D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E56EFABB-4955-4C46-93F6-73996EC276A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E56EFABB-4955-4C46-93F6-73996EC276A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E56EFABB-4955-4C46-93F6-73996EC276A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E56EFABB-4955-4C46-93F6-73996EC276A1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CE1B9DC2-98E0-4749-97F8-D3C1E127AEDD}
+	EndGlobalSection
+EndGlobal

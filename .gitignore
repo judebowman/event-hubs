@@ -1,0 +1,22 @@
+[Oo]bj/
+[Bb]in/
+ClientBin/
+packages/
+*.suo
+*.user
+/TestResults
+*.vspscc
+*.vssscc
+*.cache
+*.schemaview
+_ReSharper*/
+DeploymentScripts.dbmdl
+Package_For_*
+user-connectionStrings.config
+TestResult.trx
+TestResult*.html
+Visual Studio 2012/
+Visual Studio 2015/
+Visual Studio 2017/
+*.ispac
+.vs/
